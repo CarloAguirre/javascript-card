@@ -1,7 +1,7 @@
 
 var precio = 400000;
 
-document.querySelector("#precioString").innerHTML = `$${precio.toLocaleString()}`
+document.querySelector("#precioString").innerHTML = `$${precio.toLocaleString()}`;
 
 var cantidad = document.querySelector("#cantidad");
 var color = document.querySelector("#colorSelector");
@@ -15,6 +15,6 @@ function onClickHandler(){
     document.querySelector("#totalFinal").innerHTML = `$${totalPrecio}`;
     document.querySelector("#cantidadFinal").innerHTML = cantidad.value;
 
-    colorDiv.style.backgroundColor = color.value
+    colorDiv.style.backgroundColor = color.value;
 
 }

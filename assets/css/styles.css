@@ -22,6 +22,7 @@ body {
   align-items: center;
   padding: 30px;
   border-radius: 10px;
+  border: 2px solid #767676;
 }
 .card > button {
   background-color: #e2a30b;
