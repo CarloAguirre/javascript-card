@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Notebooks Marketplace</title>
+  </head>
+  <body>
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="image">
+          <img src="./assets/imgs/desafio_javascript.png" alt="Imagen de un Notebook" />
+        </div>
+        <p class="title">Laptop Gamer AMD</p>
+        <div>
+          <input
+            type="number"
+            id="cantidad"
+            placeholder="Ingresa una cantidad"
+          />
+        </div>
+        <div>
+          <select id="colorSelector">
+            <option value="" disabled selected>Elije un color</option>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="white">White</option>
+          </select>
+        </div>
+        <p class="precio">Precio: <span id="precioString"></span></p>
+        <button onclick="onClickHandler()">Calcular Total</button>
+      </div>
+    </div>
+
+    <aside>
+      <p>Total: <span id="totalFinal"></span></p>
+      <p>Cantidad: <span id="cantidadFinal"></span></p>
+      <div class="colored-div">
+        <p>Color:</p>
+        <div id="colorFinal"></div>
+      </div>
+    </aside>
+
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>

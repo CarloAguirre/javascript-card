@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.card {
+  background-color: #7ba238;
+  width: 270px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card > button {
+  background-color: #e2a30b;
+  border-radius: 6px;
+  border: groove #767676;
+  width: 150px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 14px;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+.card > button:hover {
+  transform: scale(1.02);
+}
+.card > p {
+  color: white;
+}
+input {
+  width: 250px;
+  border-radius: 6px;
+  padding: 5px;
+  margin-bottom: 17px;
+  border: none;
+}
+select {
+  width: 265px;
+  border-radius: 6px;
+  padding: 5px;
+  border: none;
+}
+.precio {
+  font-size: x-large;
+  margin-right: 35%;
+}
+.title {
+  font-weight: bolder;
+}
+
+.image > img {
+  width: 270px;
+}
+aside > p,
+.colored-div > p {
+  font-size: larger;
+  font-weight: 600;
+}
+.colored-div {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+#colorFinal {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: black solid 1px;
+}
